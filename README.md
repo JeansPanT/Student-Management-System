@@ -59,4 +59,52 @@ It provides some enhanced features such as: an easy interface to add, remove, an
   3. View Page:
       - jTable() - Shows data in a Graphical Table. Data is retrieved from MySQL database using JDBC Connectivity.
       - ShowData() - used to trigger actionPerformedonClick which then runs the JDBC Connectivity code that executes query to SELECT * from student;
-      - Clear() - Clears any text on jTable rows. 
+      - Clear() - Clears any text on jTable rows.
+        
+  4. Search Page:
+      - Search() - Collects the RollNo from jTextfield box & runs a MySQL query that shows the student's data on jTable Box.
+      - jTable() - Shows data in a Graphical Table. Data is retrieved from MySQL database using JDBC Connectivity.
+      - Update Data() - Redirects to Update Page.
+      - Delete Data() - Redirects to Delete Page
+        
+  5. Update Page:
+      - Search() - Collects the RollNo from jTextfield box & runs a MySQL query that shows the student's data on jTextField Boxes.
+      - Name() - Add Student's name
+      - Age() - Add Student's age
+      - Percentage() - Add Student's percentage
+      - Email() - Add Student's email address
+      - Address() - Add Student's home address
+      - Update() - Collects the data from above jTextfield & updates it on MySQL Database using PreparedStatement query.
+      - 
+  6. Delete Page:
+      - jTable() - Shows data in a Graphical Table. Data is retrieved from MySQL database using JDBC Connectivity.
+      - Delete() - Collects the RollNo from jTextfield box & runs a MySQL query that delete the student's data on MySQL Database.
+      - ShowTable() - It runs the jTable query that shows data in a Graphical Table. Data is retrieved from MySQL database using JDBC Connectivity.
+      - ClearTable() - It runs a jTable query that clears any text on jTable rows.
+   
+
+## Program Images-
+
+1. Home Page
+
+![homepg](https://github.com/JeansPanT/Student-Management-System/blob/main/program_photos/Home.jpg)
+
+2. Registration Page
+
+![Regipg](https://github.com/JeansPanT/Student-Management-System/blob/main/program_photos/Registration.jpg)
+
+3. View Page
+
+![Viewpg](https://github.com/JeansPanT/Student-Management-System/blob/main/program_photos/View.jpg)
+
+4. Search Page
+
+![Searchpg](https://github.com/JeansPanT/Student-Management-System/blob/main/program_photos/Search.jpg)
+
+5. Update Page
+
+![Updatepg](https://github.com/JeansPanT/Student-Management-System/blob/main/program_photos/Update.jpg)
+
+6. Delete Page
+
+![Deletepg](https://github.com/JeansPanT/Student-Management-System/blob/main/program_photos/Delete.jpg)
